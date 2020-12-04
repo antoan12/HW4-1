@@ -16,6 +16,7 @@ for link in $(cat urls.txt); do
 done
 
 # creates csv file while merging all 3 text files
+# the order is link/Netanyahu/Gantz
 num_of_links=$(cat urls.txt | wc -l)
 for ((i=1; i<=num_of_links; i++)); do
 	url=$(head -n $i urls.txt | tail -n +$i)
