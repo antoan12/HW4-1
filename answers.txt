@@ -1,0 +1,8 @@
+Answers
+
+a. There are 60 links, so it would probably take around 40 minutes to search through them all.
+
+b. We've realized that Bash is a very usful tool to go through many files quickly and easily. There are endless possible ways to utilize it, for example arranging data from several different text files into spreadsheets, or convert an entire folder of certain type of files to a different type.
+
+c. We can set an infinite loop, and use a command like "sleep" or "watch" and set the time to every hour, and it would operate autonomously, since the first time we execute the script.
+To ignore articles that were already visited, we can set a flag for each link in our urls list, and check if its marked or not before running actions on it.
